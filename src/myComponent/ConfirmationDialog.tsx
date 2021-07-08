@@ -17,7 +17,7 @@ const ConfirmationDialog: React.FC<Props> = (props) => {
     <>
       <div>
         <p
-          className="pt-32 text-center text-blue-500 cursor-pointer hover:underline"
+          className="mt-32 text-center text-blue-500 cursor-pointer hover:underline"
           onClick={() => {
             setIsOpen((e) => !e);
           }}
